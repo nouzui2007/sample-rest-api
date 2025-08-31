@@ -1,19 +1,6 @@
 {
   "version": 2,
-  "functions": {
-    "api/index.js": {
-      "runtime": "@vercel/node@18.x"
-    }
-  },
-  "outputDirectory": ".",
-  "rewrites": [
-    {
-      "source": "/api",
-      "destination": "/"
-    },
-    {
-      "source": "/api/(.*)",
-      "destination": "/"
-    }
+  "builds": [
+    { "src": "api/*.js", "use": "@vercel/node" }
   ]
 }
