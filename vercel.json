@@ -6,9 +6,6 @@
     }
   },
   "outputDirectory": ".",
-  "includeFiles": [
-    "data/**/*"
-  ],
   "rewrites": [
     {
       "source": "/api",
