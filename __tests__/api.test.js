@@ -1,6 +1,6 @@
 const request = require('supertest');
 const { createServer } = require('http');
-const apiHandler = require('../api/index');
+const apiHandler = require('../index');
 
 // テスト用のHTTPサーバーを作成
 function createTestServer() {
