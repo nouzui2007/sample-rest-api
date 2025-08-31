@@ -1,4 +1,4 @@
-const sampleData = require('./data/sample.json');
+const sampleData = require('../data/sample.json');
 
 module.exports = async (req, res) => {
   // CORSヘッダーを設定
