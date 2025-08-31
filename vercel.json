@@ -8,5 +8,15 @@
   "outputDirectory": ".",
   "includeFiles": [
     "data/**/*"
+  ],
+  "rewrites": [
+    {
+      "source": "/api",
+      "destination": "/"
+    },
+    {
+      "source": "/api/(.*)",
+      "destination": "/"
+    }
   ]
 }
